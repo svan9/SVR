@@ -1,0 +1,23 @@
+type:GenericSmelter
+name:"fluid"
+description:"It produces a special liquid that consists of organic materials. "
+outputLiquid: flud/3
+size:2
+hasPower:true
+hasItems:true
+craftTime:25
+updateEffect:steam
+itemCapacity:3
+consumes:{
+power:0.5
+items:{items:[
+spore-pod/3
+]}
+liquid:water/0.15
+}
+requirements:[
+copper/108
+lead/150
+]
+category:crafting
+research:router

@@ -1,0 +1,23 @@
+type:GenericSmelter
+name:"reco"
+description:"Creates a malecular substance."
+outputItem:biop/1
+size:2
+hasPower:true
+hasLiquid:true
+craftTime:40
+updateEffect:steam
+itemCapacity:10
+consumes:{
+power:0.659
+liquid:flud/0.5
+}
+requirements:[
+copper/150
+lead/250
+titanium/100
+thorium/50
+plastanium/56
+]
+category:crafting
+research:router
